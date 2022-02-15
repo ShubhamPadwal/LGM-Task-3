@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <div id="container">
+      <div id="sname" class="input">
+        <p>Name</p>
+        <input
+          class="inpu"
+          id="name"
+          placeholder="Enter Your Name"
+          type="text"
+        />
+      </div>
+      <div class="input">
+        <p>College Name</p>
+        <input
+          class="inpu"
+          id="cname"
+          placeholder="Enter College Name"
+          type="text"
+        />
+      </div>
+      <div class="input">
+        <p>Email</p>
+        <input
+          class="inpu"
+          id="email"
+          placeholder="Enter Email "
+          type="email"
+        />
+      </div>
+      <div class="input">
+        <p>Age</p>
+        <input
+          class="inpu"
+          id="age"
+          placeholder="Enter Your Age"
+          type="number"
+        />
+      </div>
+      <br />
+      <div>
+        <button onclick="reset()" id="reset">Reset</button>
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+
+    <table id="display">
+      <tr>
+        <th>Name</th>
+        <th>College Name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin:0cm;
+    padding: 0cm;
+}
+
+h1{
+    color: rgb(38, 38, 218) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5vh 0;
+}
+
+#container{
+    background-color: #EFD5C3;
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+    border: 2px solid black;
+    padding: 0 0 10vh 0;
+    border-radius: 20px;
+}
+
+p{
+    
+    font-family: serif;
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 15vh;
+}
+
+.inpu{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 0 3vh 0;
+    height: 3vh;
+    font-weight: 600;
+    color: #555;
+}
+
+html {
+    background-color: rgb(198, 253, 253);
+    text-align: center;
+}
+
+#sname {
+    margin-top: 50px;
+}
+
+.input {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+#reset, #submit{
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+    font-family: cursive;
+    background-color: rgb(247, 63, 63);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: rgb(4, 156, 67);
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood; 
+}
+table,th,td {
+    border: 2px solid black;
+}
+th {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
